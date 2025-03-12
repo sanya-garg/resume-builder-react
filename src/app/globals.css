@@ -34,7 +34,74 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
+.page-title[_ngcontent-eeq-c81] {
+  margin-left: 30px;
+  margin-top: 10px;
+  padding-top: 40px;
+  font-size: 40px;
+  line-height: 40px;
+  font-family: Commissioner, sans-serif;
+}
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.subtitle-content{
+  display: flex;
+}
+.download-preview-button, .subtitle-text {
+  margin: 10px;
+}
+.mat-button.mat-primary{
+  color: #2196f3;
+  box-sizing: border-box;
+  position: relative;
+  user-select: none;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  display: inline-block;
+  white-space: nowrap;
+  text-decoration: none;
+  vertical-align: baseline;
+  text-align: center;
+  margin: 0;
+  min-width: 64px;
+  line-height: 36px;
+  padding: 0 16px;
+  border-radius: 4px;
+  overflow: visible;
+}
+.mat-typography {
+  font: 400 14px / 20px Roboto, Helvetica Neue, sans-serif;
+  letter-spacing: normal;
+}
+.error{
+  color:red;
+  font-size: 10px;
+}
+.toolbar-menu-item {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 20px;
+  cursor: pointer;
+  font-weight: 400;
+  padding: 13px 13px;
+}
+.mat-toolbar{
+  background-color: #2196f3;
+  display: flex;
+    box-sizing: border-box;
+    padding: 0 16px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap;
+}
+a{
+    color: white !important;
+    text-decoration: none !important;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
