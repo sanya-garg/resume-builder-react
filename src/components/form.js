@@ -1,7 +1,7 @@
 'use client';
 import axios from "axios";
 import { useState } from "react"
-import { Audio, RotatingLines } from "react-loader-spinner";
+import ClipLoader from 'react-spinners/ClipLoader';
 
 export default function Form() {
     const [isActive, setIsActive] = useState(false);
@@ -648,13 +648,7 @@ export default function Form() {
                     <button className="btn btn-outline-primary calendar" type="submit" onClick={handleSubmit} > Submit</button >
                 </form >
                 <div style={{ position: "fixed", top: "50%", left: "50%", transform: "translate(-50%, -50%)" }}>
-                    <RotatingLines
-                        strokeColor="grey"
-                        strokeWidth="5"
-                        animationDuration="0.75"
-                        width="96"
-                        visible={isLoading}
-                    />
+                    {isLoading &&<ClipLoader color="#52bfd9" size={100}/>}
                 </div>
             </section >
         </div>
