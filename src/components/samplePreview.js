@@ -14,7 +14,7 @@ export default function SamplePreview(){
                     <div className="education_section">
                         <h2 className="section-name"><strong >Education</strong></h2>
                         <div className="ng-star-inserted">
-                            <li ><strong >Bachelor's Degree</strong> in <strong >Computer Science and Engineering</strong> from PQR University,[ <strong >May 12, 2017 - May 30, 2013, 9.20 </strong>] </li>
+                            <li ><strong >Bachelor&apos;s Degree</strong> in <strong >Computer Science and Engineering</strong> from PQR University,[ <strong >May 12, 2017 - May 30, 2013, 9.20 </strong>] </li>
                         </div>
                     </div>
                     <div className="experience_section">

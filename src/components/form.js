@@ -354,7 +354,7 @@ export default function Form() {
     return (
         <div>
             <section className="container col-lg-8 mx-auto resume-form-section">
-                <h3 color="primary" className="mat-h3 page-title mt-4">Let's create your resume!</h3>
+                <h3 color="primary" className="mat-h3 page-title mt-4">Let&apos;s create your resume!</h3>
                 <div className="subtitle-content">
                     <div className="subtitle-text">
                         <div>Fill in the details to get started.</div>
