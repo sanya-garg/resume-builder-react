@@ -350,7 +350,7 @@ export default function Form() {
     function handlePresentDate(e) {
         setIsActive(!isActive);
         setFormValidations({ ...formValidation, experienceError: { ...formValidation.experienceError, companyTo: false } });
-        setForm({...form,experience:{...form.experience,companyTo:'',presentDate : presentDate ? false : true }});
+        setForm({...form,experience:{...form.experience,companyTo:'',presentDate : !form.experience.presentDate }});
     }
     return (
         <div>
